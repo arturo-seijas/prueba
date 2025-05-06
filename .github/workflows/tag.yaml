@@ -4,6 +4,8 @@ on:
     branches:
       - staging
       - production
+permissions:
+  - write
 jobs:
   build:
     runs-on: ubuntu-latest
